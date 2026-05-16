@@ -8,11 +8,11 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("collate", "namespace", "rd",
     "roxyglobals::global_roclet"))
-RoxygenNote: 7.3.3
 Imports:
+    ggplot2,
     sf,
     spatialSpells,
-    spatialData
+    stats
 Suggests:
     roxyglobals,
     spelling,
@@ -24,3 +24,4 @@ Config/roxyglobals/unique: TRUE
 Depends: 
     R (>= 4.1.0)
 LazyData: true
+Config/roxygen2/version: 8.0.0
