@@ -1,15 +1,18 @@
-Package: pkgname
-Title: What the Package Does (One Line, Title Case)
+Package: spatialPredictors
+Title: Spatial Predictors for Spatially Explicit Modelling 
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Blas. M", "Benito", , "blasbenito@gmail.com", role = c("aut", "cre"))
+Description: Builds spatial predictors for machine learning and statistical models of spatial processes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("collate", "namespace", "rd",
     "roxyglobals::global_roclet"))
 RoxygenNote: 7.3.3
 Imports:
+    sf,
+    spatialSpells,
+    spatialData
 Suggests:
     roxyglobals,
     spelling,
